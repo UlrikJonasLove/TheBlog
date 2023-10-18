@@ -1,0 +1,14 @@
+<div class="container" *ngIf="post">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="https://cdn.pixabay.com/photo/2023/10/12/14/41/town-8310950_1280.jpg" class="card-img-top" alt="{{ post.title }}" height="200px" width="250px">
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.description }}</p>
+            <button routerLink="/post/{{post.id}}" class="btn btn-primary">View Post</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

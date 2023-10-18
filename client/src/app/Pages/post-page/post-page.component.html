@@ -1,0 +1,7 @@
+<div class="d-flex flex-wrap">
+    <div *ngFor="let post of posts" class="flex-grow-0 flex-shrink-0 mb-4 mr-4">
+    <div class="d-flex flex-column">
+        <app-post-item [post]="post"></app-post-item>
+    </div>
+    </div>
+</div>

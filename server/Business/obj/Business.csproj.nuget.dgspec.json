@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Business\\Business.csproj": {}
+    "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Business\\Business.csproj": {
+    "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\server\\Business\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,7 +23,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -31,11 +31,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -47,8 +47,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -71,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\server\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,7 +94,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -102,11 +102,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Models\\Models.csproj"
+              "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\Models.csproj"
               }
             }
           }
@@ -118,8 +118,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -127,17 +127,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -156,18 +156,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Models\\Models.csproj": {
+    "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\Server\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\Projekt\\TheBlog\\server\\Models\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\Desktop\\Code\\hobby Projekt\\TheBlog\\server\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -179,7 +179,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -187,8 +187,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -199,8 +199,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -217,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
